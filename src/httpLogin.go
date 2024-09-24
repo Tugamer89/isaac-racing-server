@@ -205,7 +205,7 @@ func validateSteamTicket(steamID string, ticket string, ip string, w http.Respon
 		http.Error(w, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
 		return false
 	}
-	appID := "250900" // This is the app ID on Steam for "The Binding of Isaac: Rebirth".
+	appID := "291550" // This is the app ID on Steam for "The Binding of Isaac: Rebirth" aka "Brawlhalla".
 	url := "https://api.steampowered.com/ISteamUserAuth/AuthenticateUserTicket/v1"
 	args := "?key=" + apiKey + "&appid=" + appID + "&ticket=" + ticket
 	resp, err := HTTPClientWithTimeout.Get(url + args)

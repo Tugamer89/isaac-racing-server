@@ -4,5 +4,5 @@
 
 isaac-racing-common@^1.0.10:
   version "1.0.10"
-  resolved "https://registry.yarnpkg.com/isaac-racing-common/-/isaac-racing-common-1.0.10.tgz#322e5935062283e084b7076d04c1ea7147567f01"
+  resolved "https://registry.npmjs.org/isaac-racing-common/-/isaac-racing-common-1.0.10.tgz"
   integrity sha512-Zp1nvnjg8+SXTo65iTlscUnGDm+jqke8hQlmDMWy9Saj1Pi2JCnTKDWNgyWIi728NuU+HUYT9FjNULOtvoH1pQ==
